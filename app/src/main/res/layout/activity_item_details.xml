@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="rtl"
+    android:orientation="vertical"
+    android:background="#A14EC4C9"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:elevation="10dp"
+        app:cardCornerRadius="10dp">
+
+
+         <RelativeLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+
+             >
+
+
+             <ImageView
+                 android:id="@+id/show_image"
+
+                 android:layout_width="250dp"
+                 android:layout_height="200dp"
+                 android:layout_centerHorizontal="true"
+                 android:background="@android:color/white" />
+
+
+             <ImageView
+                 android:id="@+id/fill_favorite_icon"
+                 android:layout_width="35dp"
+                 android:layout_height="45dp"
+                 android:layout_margin="10dp"
+                 android:layout_alignParentEnd="true"
+                 android:src="@drawable/ic_baseline_favorite_24"
+                 android:visibility="gone"/>
+
+
+             <ImageView
+                 android:id="@+id/empty_favorite_icon"
+                 android:layout_width="35dp"
+                 android:layout_height="45dp"
+                 android:layout_margin="10dp"
+                 android:layout_alignParentEnd="true"
+                 android:src="@drawable/ic_baseline_favorite_border_24"/>
+
+
+         </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+     <ScrollView
+         android:layout_width="match_parent"
+          android:layout_height="0dp"
+         android:layout_weight="1"
+         android:background="@drawable/background"
+         android:paddingTop="10dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    >
+
+    <TextView
+        android:id="@+id/show_item_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="عنوان الموضوع"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimary"
+        android:textAlignment="center"
+        android:padding="12dp"
+
+        />
+
+
+
+    <TextView
+        android:id="@+id/show_item_details"
+        android:layout_below="@+id/show_item_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="التفاصيل"
+        android:padding="12dp"
+        android:textSize="16sp"
+        android:textColor="@android:color/secondary_text_light"
+
+        />
+
+    <View
+        android:id="@+id/show_divider2"
+        android:layout_below="@+id/show_item_details"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+
+    <TextView
+        android:id="@+id/show_item_notes"
+        android:layout_below="@+id/show_divider2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ملاحظات"
+        android:padding="12dp"
+        android:textSize="16sp"
+        android:textColor="@android:color/secondary_text_light"/>
+
+    </RelativeLayout>
+     </ScrollView>
+
+        </LinearLayout>

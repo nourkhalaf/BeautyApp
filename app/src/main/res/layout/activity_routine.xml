@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RoutineActivity"
+    android:padding="20dp"
+    android:layoutDirection="rtl"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/tip1"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        app:cardCornerRadius="8dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="20dp"
+        android:elevation="5dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="خطوات للعناية اليومية بالبشرة في الصباح وقبل النوم"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:textAlignment="center"
+                android:layout_centerVertical="true"
+                />
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/tip2"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/tip1"
+        android:layout_height="50dp"
+        app:cardCornerRadius="8dp"
+        android:backgroundTint="#7AC2F1ED"
+        android:layout_margin="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="تنظيف الوجه بالغسول المناسب لنوع بشرتك"
+                android:textSize="16sp"
+                android:textColor="@color/colorPrimary"
+                android:textAlignment="center"
+                android:layout_centerVertical="true"
+                />
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/tip3"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/tip2"
+        android:layout_height="50dp"
+        app:cardCornerRadius="8dp"
+        android:backgroundTint="#7AC2F1ED"
+        android:layout_margin="3dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="تطبيق التونر على الوجه لسد المسامات"
+                android:textSize="16sp"
+                android:textColor="@color/colorPrimary"
+                android:textAlignment="center"
+                android:layout_centerVertical="true"
+                />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/tip4"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/tip3"
+        android:layout_height="50dp"
+        app:cardCornerRadius="8dp"
+        android:backgroundTint="#7AC2F1ED"
+        android:layout_margin="5dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="استخدام المستحضرات المعالجة في حال الضرورة"
+                android:textSize="16sp"
+                android:textColor="@color/colorPrimary"
+                android:textAlignment="center"
+                android:layout_centerVertical="true"
+                />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+    android:id="@+id/tip5"
+    android:layout_width="match_parent"
+    android:layout_below="@+id/tip4"
+    android:layout_height="50dp"
+    app:cardCornerRadius="8dp"
+    android:backgroundTint="#7AC2F1ED"
+    android:layout_margin="5dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="تطبيق السيروم المناسب للبشرة"
+                android:textSize="16sp"
+                android:textColor="@color/colorPrimary"
+                android:textAlignment="center"
+                android:layout_centerVertical="true"
+                />
+        </RelativeLayout>
+</androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/tip6"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/tip5"
+        android:layout_height="50dp"
+        app:cardCornerRadius="8dp"
+        android:backgroundTint="#7AC2F1ED"
+        android:layout_margin="5dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="تطبيق كريم العيون بلطف حول العينين"
+                android:textSize="16sp"
+                android:textColor="@color/colorPrimary"
+                android:textAlignment="center"
+                android:layout_centerVertical="true"
+                />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/tip7"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/tip6"
+        android:layout_height="50dp"
+        app:cardCornerRadius="8dp"
+        android:backgroundTint="#7AC2F1ED"
+        android:layout_margin="5dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="تطبيق كريم مرطب للبشرة"
+                android:textSize="16sp"
+                android:textColor="@color/colorPrimary"
+                android:textAlignment="center"
+                android:layout_centerVertical="true"
+                />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/tip8"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/tip7"
+        android:layout_height="50dp"
+        app:cardCornerRadius="8dp"
+        android:backgroundTint="#7AC2F1ED"
+        android:layout_margin="5dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="تطبيق واقي الشمس في الصباح"
+                android:textSize="16sp"
+                android:textColor="@color/colorPrimary"
+                android:textAlignment="center"
+                android:layout_centerVertical="true"
+                />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
